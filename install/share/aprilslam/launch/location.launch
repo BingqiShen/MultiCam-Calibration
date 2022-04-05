@@ -1,0 +1,10 @@
+<launch>
+	<include file="$(find aprilslam)/launch/param.launch" />
+	<arg name="camera" default="/camera"/>
+	<include file="$(find aprilslam)/launch/detector.launch">
+        <!--arg name="camera" value="/stereo/cam0"/-->
+  </include>
+	<node pkg="aprilslam" type="aprilslam_localiser_node" name="aprilslam_localiser_node" 
+			 output="screen" ns="$(arg camera)" />
+	
+</launch>

@@ -1,0 +1,3 @@
+int32 state
+---
+string error_message

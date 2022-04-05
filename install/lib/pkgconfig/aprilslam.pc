@@ -1,0 +1,8 @@
+prefix=/home/cyy/ws/kdevelop_builds/jz_ws/caliber/aprilslam/aprilslam/install
+
+Name: aprilslam
+Description: Description of aprilslam
+Version: 1.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

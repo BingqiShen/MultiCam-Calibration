@@ -1,0 +1,7 @@
+string intrinsic_file_name
+string camera_topic
+int32 camera_id
+int32 image_width
+int32 image_height
+---
+string error_msgs

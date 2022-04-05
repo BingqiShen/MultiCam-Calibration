@@ -1,0 +1,15 @@
+<launch>	
+	<param name="/aprilslam/tag_size" value="0.2" />
+	<param name="/aprilslam/camera_topic" value="/mynteye/left/image_raw" />
+	<param name="/aprilslam/save_xml_path" value="/home/cyy/aprilmap.xml" />
+	<param name="/aprilslam/image_width" value="752" />
+	<param name="/aprilslam/image_height" value="480" />
+	<param name="/aprilslam/fx" value="456.318" />
+	<param name="/aprilslam/fy" value="456.356" />
+	<param name="/aprilslam/cx" value="397.405" />
+	<param name="/aprilslam/cy" value="224.052" />
+	<param name="/aprilslam/k1" value="-0.298276" />
+	<param name="/aprilslam/k2" value="0.079154" />
+	<param name="/aprilslam/k3" value="-0.0" />
+	<param name="/aprilslam/k4" value="0.0" />
+</launch>	

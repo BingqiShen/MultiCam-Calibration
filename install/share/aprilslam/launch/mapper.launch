@@ -1,0 +1,6 @@
+<launch>
+    <arg name="camera" default="/camera"/>
+    <node pkg="aprilslam" type="april_mapper_node" name="april_mapper_node"
+        output="screen" ns="$(arg camera)" >
+    </node>
+</launch>

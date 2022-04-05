@@ -1,0 +1,13 @@
+<launch>
+
+    <!--Detector Node-->
+    <include file="$(find aprilslam)/launch/detector.launch">
+        <!--arg name="camera" value="/stereo/cam0"/-->
+    </include>
+
+    <include file="$(find aprilslam)/launch/mapper.launch">
+        <!--arg name="camera" value="/stereo/cam0"/-->
+    </include>
+
+
+</launch>
