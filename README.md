@@ -4,9 +4,9 @@ A method to calibrate the extrinsics of multiple cameras using aprilslam algorit
 Instruction:
 
 1. 准备april tag录制建图bag：
-
+```
 rosbag record /camera1/camera1_resize
-
+```
 在录制bag期间尽可能保证相机视野内每一帧中至少包含两个april tag，建议录制bag的时候让相机多转几圈
 
 2. 填写配置文件：
