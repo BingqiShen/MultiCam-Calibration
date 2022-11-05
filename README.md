@@ -1,6 +1,8 @@
 # MultiCam-Calibration
 A method to calibrate the extrinsics of multiple cameras using aprilslam algorithm
 
+only can be used in Ubuntu16.04
+
 Instruction:
 
 1. 准备april tag录制建图bag：
